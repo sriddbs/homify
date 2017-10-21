@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="calendar.css">
+    <script type="text/javascript" src="calendar.js"></script>
+  </head>
+
+  <div id="calendar"></div>
+
+  <script type="text/javascript">
+    var events = [
+      {'Date': new Date(2017, 9, 17), 'Title': 'Homify Interview at 11.30 AM.'},
+    ];
+
+    var element = document.getElementById('calendar');
+    calendar(element, events);
+
+  </script>
+</html>
